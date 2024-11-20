@@ -190,9 +190,6 @@ body{
 
 
 
-#newest-blog .col-md-6.blog-item {
-    padding-bottom: 15px; /* Điều chỉnh giá trị theo ý bạn */
-}
 
 #newest-blog .blog-all-item .blog-item:nth-child(3) {
     padding-bottom: 5px;
