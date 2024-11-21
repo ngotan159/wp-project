@@ -111,3 +111,9 @@ function enqueue_SeparateBS51() {
     wp_enqueue_script('enqueue_SeparateBS51', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js');
 }
 add_action('wp_enqueue_scripts', 'enqueue_SeparateBS51');
+//hàm kí tự mô tả ngắn
+function custom_excerpt_length( $length ) {
+    return 21; // Đặt độ dài excerpt là 50 từ
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
