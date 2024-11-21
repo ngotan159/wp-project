@@ -116,4 +116,3 @@ function custom_excerpt_length( $length ) {
     return 21; // Đặt độ dài excerpt là 50 từ
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
