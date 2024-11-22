@@ -5578,10 +5578,6 @@ JOB LISTING PAGE
   margin-top: 5px;
 }
 
-.site-main .entry-content div.job_listings div.job_listings article .company-name:before {
-  content: "@";
-}
-
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 15px;

@@ -290,6 +290,7 @@ body{
     gap: 20px; /* Khoảng cách giữa các job (tuỳ chỉnh theo nhu cầu) */
 }
 
+
 .site-main .entry-content div.job_listings div.job_listings article {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
@@ -301,6 +302,13 @@ body{
     overflow: hidden;
     align-items: flex-start;
     box-sizing: border-box; /* Đảm bảo padding/margin không ảnh hưởng kích thước */
+}
+
+.site-main .entry-content div.job_listings div.job_listings article div.company-name {
+margin-top: 7px;
+}
+.site-main .entry-content div.job_listings div.job_listings article div.job-info li {
+    margin-top: 9px;
 }
 
 .titles .entry-title a {
