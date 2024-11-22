@@ -189,7 +189,13 @@ body{
 }
 
 
+#newest-blog .blog-all-item .blog-item:nth-child(1) {
+    padding-bottom: 5px;
+}
 
+#newest-blog .blog-all-item .blog-item:nth-child(2) {
+    padding-bottom: 5px;
+}
 
 #newest-blog .blog-all-item .blog-item:nth-child(3) {
     padding-bottom: 5px;
